@@ -11,8 +11,8 @@ module MyEnumerable
   end
 
   def filter
-    even_values = []
-    @list.each { |int| even_values.push(int) if yield int }
-    even_values
+    filtered_values = []
+    @list.each { |int| filtered_values.push(int) if yield int }
+    filtered_values
   end
 end

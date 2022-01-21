@@ -21,12 +21,12 @@ You need to have a Ruby installed in your local machine
 To setup the Enumerable Methods project in your local, in the repo page: 
 - click on code (dropdown list) > Download as ZIP. 
 - or open terminal of path you want to install project and run this command:
-`git@github.com:Hope1226/enumerable-methods.git`
+`git clone git@github.com:Hope1226/enumerable-methods.git`
 
 ## Test Methods
 - Run the following comand to test the methods in your command line:
 - `irb`
-- `load './my_list.rb`
+- `load './my_list.rb'`
 - `list = MyList.new([1, 2, 3, 4])`
 - `list.all? { |e| e < 5 }`
 - `list.any? { |e| e == 2 }`
